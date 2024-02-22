@@ -7,7 +7,4 @@ This is my portion of the CIS 5300 NLP final project. The tennis data and inspir
 - Cornell University
 - https://www.cs.cornell.edu/~cristian/papers/gender-tennis.pdf
 
-This project aims to analyze gender bias in tennis journalism by training language models on game commentary and comparing post-match interview question perplexities between men and women. My team decided to build on the original project's bigram model, looking at perplexity scores in trigram and LSTM models. We also ran some embedding experiments.
-
-  
-
+This project aims to analyze gender bias in tennis journalism by training language models on game commentary and comparing post-match interview question perplexities between men and women. My team decided to build on the original project's bigram model, looking at perplexity scores in trigram and LSTM models. Additionally, we conducted a topic modeling analysis and clustered question embeddings, comparing the centroid values with the vectors of the commentary words and GPT-generated tennis terms. Finally, we used GPT to predict and fine-tuned BERT and sportsBERT models to predict the gender of the question recipients.
